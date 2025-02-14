@@ -1,0 +1,42 @@
+body {
+  /* background-color: bisque; */
+  /* font-size: x-large; */
+  /* width: 95%; */
+  /* margin-left: 2.5%; */
+  margin-top: 3rem;
+}
+
+main {
+  /* margin-top: 17rem; */
+  background-color: aqua;
+}
+
+.hero {
+  display: flex;
+  width: 60%;
+  height: 20vh;
+}
+.sectors {
+  display: flex;
+}
+
+.careerchoice {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonlinks{
+  justify-content: center;
+  justify-items: center;
+border: 2px solid rebeccapurple
+;}
+
+.qoute{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer{
+  width: 80%;
+  border: 2px solid red;
+}

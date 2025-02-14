@@ -1,0 +1,23 @@
+nav {
+    /* background-color: teal; */
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    font-size: medium;
+    z-index: 2;
+    width: 100%;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    flex: 0 10rem;
+    justify-content: space-around;
+    list-style: none;
+    gap: 2rem;
+  }
