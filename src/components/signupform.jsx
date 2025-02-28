@@ -9,6 +9,7 @@ import {
   PasswordInput,
   Drawer,
   NumberInput,
+  Modal,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import LoginForm from "./loginform";
@@ -19,7 +20,7 @@ function SignUpForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmPassword] = useState("");
-  const [opened, { open, close }] = useDisclosure(false);
+  // const [opened, { open, close }] = useDisclosure(false);
 
   const newLocal = "Authentication";
 
@@ -67,11 +68,10 @@ function SignUpForm() {
           Register
         </Button>
 
-        <Link to="/signupform">
-          <Drawer opened={opened} onClose={close} title={newLocal}>
-            {/* Drawer content */}
-            <LoginForm />
-          </Drawer>
+        <Link to="/loginform">
+          {/* <Modal>
+  <LoginForm />
+</Modal> */}
 
           <Text variant="filled" onClick={open}>
             Have an account? Login

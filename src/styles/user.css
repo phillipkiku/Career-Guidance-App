@@ -1,0 +1,22 @@
+.navbar {
+  background-color: antiquewhite;
+  margin-top: 1.5rem;
+  width: 15%;
+  border: 2px solid rebeccapurple;
+  height: 50%;
+}
+
+.main {
+  margin-top: 2rem;
+  border: 2px solid red;
+  margin-right: 5%;
+}
+.main1 {
+  border: 2px solid blue;
+  margin-bottom: 2rem;
+}
+.savedvideos {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid magenta;
+}

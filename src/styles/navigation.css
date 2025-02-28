@@ -1,6 +1,7 @@
 nav {
     /* background-color: teal; */
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,13 +12,19 @@ nav {
     font-size: medium;
     z-index: 2;
     width: 100%;
-    
+    /* margin-bottom: 2rem;
+    padding-bottom: 3rem; */
+    color: black;
+    text-decoration: none;
   }
   
   nav ul {
     display: flex;
+    color: black;
     flex: 0 10rem;
     justify-content: space-around;
     list-style: none;
     gap: 2rem;
+    font-weight: 700;
+    text-decoration: none;
   }
